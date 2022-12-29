@@ -24,10 +24,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+        comImageView.image = #imageLiteral(resourceName: "ready")
+        myImageView.image = UIImage(named: "ready.png")
+        
+        comChoiceLabel.text = "준비"
+        myChoiceLabel.text = "준비"
+        Rps.paper 
+        
+        
     }
     
     
     @IBAction func rpsButtonTapped(_ sender: UIButton) {
+        
+        
+    }
+    
+    
+    @IBAction func selectButtonTapped(_ sender: UIButton) {
         
         
     }
@@ -38,14 +54,10 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
-    @IBAction func selectButtonTapped(_ sender: UIButton) {
-        
-        
-    }
-    
+
+
 
 
 }
+
 
